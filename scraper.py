@@ -80,8 +80,8 @@ def main():
         
         for vid in videos:
             logo_attr = f' tvg-logo="{vid["img"]}"' if vid['img'] else ''
-            # group-title="🔞adult+" yahan add kiya gaya hai
-            m3u_lines.append(f'#EXTINF:-1 group-title="🔞adult"{logo_attr}, {vid["title"]}')
+            # group-title="🔞porn" yahan add kiya gaya hai
+            m3u_lines.append(f'#EXTINF:-1 group-title="🔞porn"{logo_attr}, {vid["title"]}')
             m3u_lines.append(f'{vid["href"]}\n')
             total_videos += 1
         
